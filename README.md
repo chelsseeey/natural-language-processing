@@ -186,7 +186,7 @@ python run_robustness.py
 
 ### 주요 발견사항
 
-1. **사실 기반 질문에서의 RAG 성공**
+1. **사실 기반 질문에서의 RAG의 적합성 확인**
    - KLUE-MRC: RAG Gain +67.00%p
    - SQuAD: RAG Gain +56.33%p
    - 키워드 매칭 방식인 BM25가 효과적으로 작동
