@@ -1,0 +1,38 @@
+[
+  {
+    "dataset": "KLUE-MRC",
+    "sample_size": 300,
+    "metrics": {
+      "Original_EM": 78.0,
+      "Paraphrased_EM": 72.33,
+      "Delta_EM": -5.67
+    }
+  },
+  {
+    "dataset": "KorQuAD",
+    "sample_size": 300,
+    "metrics": {
+      "Original_EM": 18.33,
+      "Paraphrased_EM": 15.67,
+      "Delta_EM": -2.67
+    }
+  },
+  {
+    "dataset": "CoS-E",
+    "sample_size": 300,
+    "metrics": {
+      "Original_EM": 33.67,
+      "Paraphrased_EM": 26.33,
+      "Delta_EM": -7.33
+    }
+  },
+  {
+    "dataset": "SQuAD",
+    "sample_size": 300,
+    "metrics": {
+      "Original_EM": 88.67,
+      "Paraphrased_EM": 84.67,
+      "Delta_EM": -4.0
+    }
+  }
+]

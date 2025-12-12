@@ -1,0 +1,66 @@
+[
+  {
+    "dataset": "KLUE-MRC",
+    "sample_size": 300,
+    "metrics": {
+      "No_RAG_Strict_EM": 0.0,
+      "No_RAG_Soft_EM": 9.67,
+      "No_RAG_F1": 0.64,
+      "RAG_Strict_EM": 4.67,
+      "RAG_Soft_EM": 76.67,
+      "RAG_F1": 13.11,
+      "RAG_Gain_Soft": 67.0,
+      "Recall": 97.0,
+      "Attribution": 76.33,
+      "p95_Latency_ms": 2320.98
+    }
+  },
+  {
+    "dataset": "KorQuAD",
+    "sample_size": 300,
+    "metrics": {
+      "No_RAG_Strict_EM": 0.0,
+      "No_RAG_Soft_EM": 7.33,
+      "No_RAG_F1": 2.37,
+      "RAG_Strict_EM": 0.33,
+      "RAG_Soft_EM": 30.33,
+      "RAG_F1": 11.35,
+      "RAG_Gain_Soft": 23.0,
+      "Recall": 98.33,
+      "Attribution": 30.33,
+      "p95_Latency_ms": 10874.11
+    }
+  },
+  {
+    "dataset": "SQuAD",
+    "sample_size": 300,
+    "metrics": {
+      "No_RAG_Strict_EM": 0.0,
+      "No_RAG_Soft_EM": 31.67,
+      "No_RAG_F1": 6.16,
+      "RAG_Strict_EM": 0.67,
+      "RAG_Soft_EM": 88.0,
+      "RAG_F1": 29.64,
+      "RAG_Gain_Soft": 56.33,
+      "Recall": 96.0,
+      "Attribution": 87.67,
+      "p95_Latency_ms": 2229.92
+    }
+  },
+  {
+    "dataset": "CoS-E",
+    "sample_size": 300,
+    "metrics": {
+      "No_RAG_Strict_EM": 0.33,
+      "No_RAG_Soft_EM": 29.67,
+      "No_RAG_F1": 3.86,
+      "RAG_Strict_EM": 2.0,
+      "RAG_Soft_EM": 23.33,
+      "RAG_F1": 8.62,
+      "RAG_Gain_Soft": -6.33,
+      "Recall": 30.0,
+      "Attribution": 16.67,
+      "p95_Latency_ms": 2663.58
+    }
+  }
+]

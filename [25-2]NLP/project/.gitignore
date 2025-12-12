@@ -1,0 +1,37 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+env/
+venv/
+ENV/
+.venv
+
+# Jupyter Notebook
+.ipynb_checkpoints
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# OS
+.DS_Store
+Thumbs.db
+
+# API Keys (보안)
+*.key
+.env
+
+# 데이터셋 원본 파일 (용량이 큰 경우)
+# dataset/*/validation/
+# dataset/*/*.arrow
+dataset/*.zip
+
+# 로그 파일
+*.log
+
