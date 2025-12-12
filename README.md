@@ -66,6 +66,22 @@ OPENAI_API_KEY = "your-api-key-here"
 
 ## 사용 방법
 
+### 0. 데이터셋 준비
+
+모든 데이터셋은 용량이 커서 `.tar.xz` 형식으로 압축되어 있습니다. 사용 전에 압축을 해제해야 합니다:
+
+```bash
+cd dataset
+tar -xJf KLUE-MRC.tar.xz
+tar -xJf KorQuAD2.1.tar.xz
+tar -xJf SQuAD.tar.xz
+tar -xJf CoS-E.tar.xz
+cd ..
+```
+
+**참고:** 압축 해제 후 각 데이터셋 디렉토리(`dataset/KLUE-MRC/`, `dataset/KorQuAD2.1/`, `dataset/SQuAD/`, `dataset/CoS-E/`)에 데이터셋 파일들이 생성됩니다.
+
+
 ### 1. 코퍼스 생성
 
 각 데이터셋의 원본 파일을 읽어서 RAG용 코퍼스 파일을 생성합니다:
@@ -76,6 +92,8 @@ python corpus.py
 
 **출력:**
 - `dataset/{dataset}_corpus.jsonl`: 각 데이터셋별 코퍼스 파일
+
+**참고:** 코퍼스 파일(`dataset/*_corpus.jsonl`)이 이미 생성되어 있는 경우 이 단계를 건너뛸 수 있습니다.
 
 ### 2. RAG 실험 실행
 
