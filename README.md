@@ -1,5 +1,7 @@
 # 단일 RAG 파이프라인을 이용한 한국어·영어 QA 데이터셋 성능 및 특성 비교 분석
 
+[최종 보고서] (https://github.com/chelsseeey/natural-language-processing/blob/main/final_report.ipynb)
+
 ## 프로젝트 개요
 
 본 프로젝트는 한국어와 영어, 사실 기반과 상식 추론 문제를 포함한 4개 데이터셋(KLUE-MRC, KorQuAD, SQuAD, CoS-E)에 대해 단일 RAG(Retrieval-Augmented Generation) 파이프라인을 구축하고 성능을 평가합니다.
